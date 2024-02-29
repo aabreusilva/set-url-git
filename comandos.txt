@@ -17,8 +17,13 @@ Configurar chave SSH para o GitHub:
 //Passo-a-passo: salvar primeira versão de um projeto no GitHub
   git init
   git add .
-  git commit -m "[Menssagem explicativa]"
+  git commit -m "[Mensagem explicativa]"
   git branch -M master
   git remote add origin git@github.com:[seuusuario]/[seurepositorio].git
   git push -u origin master
   
+//Salvando uma nova versão.
+ git status
+ git add .
+ git commit -m "[Mensagem explicativa]"
+ git push

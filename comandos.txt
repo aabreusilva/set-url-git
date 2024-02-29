@@ -34,3 +34,8 @@ Configurar chave SSH para o GitHub:
  git add .
  git commit "[Mensagem explicativa]"
  git push
+
+//Comando git diff onde mostra as modificações que você fez
+//onde, - seria o que você retirou do código e o + o que acrescentou.
+ git diff
+ 

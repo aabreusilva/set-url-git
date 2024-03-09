@@ -1,3 +1,9 @@
 //Como remover arquivos da area de stage(onde coloco os arquivos para serem salvos na sua versão)
 -git status
 -git reset
+
+//Como desfazer modificações não salvas.
+-git status
+-git reset
+-git clean -df
+-git checkout -- .

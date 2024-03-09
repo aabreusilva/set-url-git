@@ -1,0 +1,3 @@
+//Como remover arquivos da area de stage(onde coloco os arquivos para serem salvos na sua versão)
+-git status
+-git reset

@@ -7,3 +7,11 @@
 -git reset
 -git clean -df
 -git checkout -- .
+
+//O que fazer quando abre o editor VIM:
+-Estas ações podem abrir o editor VIM no terminal:
+ ->Fazer um commit sem mensagem
+ ->Fazer um merge de três vias
+-Habilitar o modo de edição: i
+-Sair do VIM, salvando as alterações: <ESC> :wq <ENTER>
+-Sair do VIM, descartando as alterações: <ESC> :q! <ENTER>

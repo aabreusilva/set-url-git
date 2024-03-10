@@ -17,6 +17,15 @@
 -Sair do VIM, descartando as alterações: <ESC> :q! <ENTER>
 
 //Como desfazer o ultimo commit:
- -Desfazer último commit sem desfazer as midificações nos arquivos
+ -Desfazer último commit sem desfazer as midificações nos arquivos.
  -git status
- -git reset --soft HEAD~1
+ -git reset --soft HEAD~1 (volta 1 nível anterior).
+
+//Como deletar commits e também modificações nos arquivos:
+ -Voltar o projeto ao estado de um dado commit (deletar commits e 
+ alterações posteriores a esse commit)
+    -git status
+    -git reset --hard <código do commit>
+ -Voltar o projeto ao estado do penultimo commit:
+    -git status
+    -git reset --hard HEAD~1

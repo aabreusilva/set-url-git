@@ -33,4 +33,11 @@
 //Como atualizar o repositório local em relação ao remoto
  -git status
  -git pull <nome do remote> <nome do branch> (git pull origin master)
- 
+
+//Como resolver push rejeitado:
+ -Não é permitido enviar um push se seu repositório local está atrasado
+ em relação ao histórico do repositório remoto! Por exemplo:
+ NO GITHUB: e8aab78 -> 38k2ane -> c9g57ef
+ NO SEU COMPUTADOR: e8aab78 -> 38k2ane -> (a47gc29) ->(33p8724)
+ -Preciso atualizar o repositório  local:
+  -git pull <nome do remote> <nome do branch>

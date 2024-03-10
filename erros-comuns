@@ -15,3 +15,8 @@
 -Habilitar o modo de edição: i
 -Sair do VIM, salvando as alterações: <ESC> :wq <ENTER>
 -Sair do VIM, descartando as alterações: <ESC> :q! <ENTER>
+
+//Como desfazer o ultimo commit:
+ -Desfazer último commit sem desfazer as midificações nos arquivos
+ -git status
+ -git reset --soft HEAD~1

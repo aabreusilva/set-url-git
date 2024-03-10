@@ -29,3 +29,5 @@
  -Voltar o projeto ao estado do penultimo commit:
     -git status
     -git reset --hard HEAD~1 WARNING: AÇÃO DESTRUTIVA.
+
+//

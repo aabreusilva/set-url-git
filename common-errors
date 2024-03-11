@@ -63,3 +63,11 @@
   -git commit -m "Conflito resolvido".
   -git log --oneline
   -git push
+
+//Como sobrescrever um histórico no github (WARNING: AÇÃO DESTRUTIVA)
+ -Apagar todas as modificações do histórico tanto local quanto remoto.
+  -git log --online
+  -git reset --hard <codigo do histórico>
+  -git log --oneline (apagou todas as modifcações)
+-Caso eu queira fazer com o histórico remoto (por favor não faça)
+  -git push -f <nome do remote> <nome do branch>

@@ -41,3 +41,25 @@
  NO SEU COMPUTADOR: e8aab78 -> 38k2ane -> (a47gc29) ->(33p8724)
  -Preciso atualizar o repositório  local:
   -git pull <nome do remote> <nome do branch>
+
+//Resolvendo conflitos:
+ -Analise o código fonte.
+ -Faça edições necessárias.
+ -Faça um novo commit
+  -git status
+  -git add .
+  -git commit -m "<mensagem explicativa>"
+  -git push
+ -Caso apareça erro referente a: "Updates were rejects because the remote contains work that you
+ do not have locally. This is usually caused by another repository pushing to the same ref. You may
+ want to first integrate the remote changes (e.g., 'git pull...') before pushing again. See the 'Note
+ about fast-fowwards' in 'git push --help' for details."
+   -git pull origin master/main
+ -Caso houver conflito (Conflit(content))
+  -git status (BOT MODFIED) "You have unmerged paths."
+ -Apagar os trechos que estão com HEAD ULTIMO e com um código entre <<>>.
+  -git status
+  -git add .
+  -git commit -m "Conflito resolvido".
+  -git log --oneline
+  -git push
